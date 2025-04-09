@@ -8,7 +8,7 @@ public class HibernateUtil {
 
     static {
         try {
-            emf = Persistence.createEntityManagerFactory("org.hibernate.gestion_reservation");
+            emf = Persistence.createEntityManagerFactory("ism_java_gestion_reservation");
         } catch (Throwable ex) {
             System.err.println("Initialisation de l'EntityManagerFactory échouée." + ex);
             throw new ExceptionInInitializerError(ex);
