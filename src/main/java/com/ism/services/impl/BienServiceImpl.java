@@ -14,18 +14,18 @@ public class BienServiceImpl implements IBienService {
     }
 
     @Override
-    public Bien save(Bien entity) {
-        return null;
+    public Bien save(Bien bien) {
+        return bienRepository.save(bien);
     }
 
     @Override
     public Bien findById(int id) {
-        return null;
+        return bienRepository.findById(id);
     }
 
     @Override
     public List<Bien> findAll() {
-        return List.of();
+        return bienRepository.findAll();
     }
 
     @Override

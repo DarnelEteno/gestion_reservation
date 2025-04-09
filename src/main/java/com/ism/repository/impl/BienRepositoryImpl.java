@@ -6,6 +6,7 @@ import com.ism.repository.IBienRepository;
 import java.util.List;
 
 public class BienRepositoryImpl implements IBienRepository {
+
     @Override
     public Bien save(Bien entity) {
         return null;
